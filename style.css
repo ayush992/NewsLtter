@@ -1,0 +1,341 @@
+*{
+    background-color: #f5f2e8;
+}
+body{
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+    font-family: Helvetica, sans-serif;
+}
+.header{
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-around;
+    height: 9vh;
+    border-top: 4px solid black;
+    border-bottom: 4px solid #101010;
+}
+.header>p{
+    width: 90px;
+    display: flex;
+    align-items: center;
+}
+@media(max-width:1200px){
+    body{
+        font-size: 12px;
+    }
+}
+@media(min-width:1401px){
+    body{
+        font-size: 20px;
+    }
+}
+@media (max-width:915px){
+    
+    .header{
+        height: 8vh;
+    }
+}
+@media screen and (max-device-width:915px){
+    .header{
+        height:fit-content;
+    }
+}
+.p2{
+    order: 2;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    font-family: fantasy;
+    font-size: 35px;
+}
+@media(max-width:1200px){
+    .heading{
+        font-size: 30px;
+    }
+}
+@media (max-width:915px){
+    .heading{
+        font-size: 15px;
+    }
+
+}
+@media screen and (max-device-width:915px){
+    .heading{
+        font-size: 15px;
+    }
+}
+
+h3{
+    border-top: #2f2f2f2f;
+    border-bottom: black;
+    border-width: 2px;
+}
+.info{
+    display: flex;
+    margin-top: 5px;
+    gap: 33%;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    justify-content: space-around;
+}
+@media (max-width:915px){
+    .info{
+        height:fit-content;
+    }
+}
+@media screen and (max-device-width:915px){
+    .info{
+        height:fit-content;
+        font-size: 15px;
+    }
+}
+
+.n1{
+    display: inline-block;
+    float: left;
+    width: 44%;
+    text-align:justify;
+    margin: 10px;
+}
+.content>img{
+    float: left;
+    width: 400px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+@media(max-width:1201px){
+    .content>img{
+        display: flex;
+        width: 300px;
+    }
+}
+@media screen and (max-device-width:915px){
+    .n1{
+        float: none;
+        width: 100%;
+        font-size: 10px;
+    }
+    .n1>h2{
+        display: flex;
+        width: 100%;
+        font-size: 25px;
+        justify-content: center;
+        border-bottom: 1px solid ;
+    }
+}
+@media (max-width:915px){
+    .n1{
+        float: none;
+        width: 100%;
+    }
+    .n1>h2{
+        display: flex;
+        width: 100%;
+        font-size: 20px;
+        justify-content: center;
+        border-bottom: 1px solid ;
+    }
+}
+
+.n2{
+    display: inline-block;
+    width: 25%;
+    margin-right: 1%;
+    text-align: justify;
+}
+.n2 > div >img{
+    float:right;
+    width:120px;
+    height: auto;
+    margin-left: 20px;
+}
+@media (max-width:915px){
+    .n2{
+        width: 100%;
+    }
+    .n2 > h4{
+        display: flex;
+        font-size: 20px;
+        width: 100%;
+        justify-content: center;
+        border-bottom: 1px solid ;
+    }
+}
+@media screen and (max-device-width:915px){
+    .n2{
+        width: 100%;
+        font-size: 10px;
+    }
+    .n2 > h4{
+        display: flex;
+        width: 100%;
+        font-size: 30px;
+        justify-content: center;
+        border-bottom: 1px solid ;
+    }
+}
+.popup{
+    display: none;
+}
+.n3{
+    display: inline-block;
+    width: 25%;
+    float: right;
+    text-align: justify;
+}
+@media (max-width:915px){
+    .n3{
+        width: 100%;
+        float: none;
+    }
+    .n3>h3{
+        display: flex;
+        font-size: 15px;
+        justify-content: center;
+        border-bottom: 1px solid ;
+    }
+
+}
+@media screen and (max-device-width:915px){
+    .n3{
+        width: 100%;
+        float: none;
+        font-size: 10px;
+    }
+    .n3>h3{
+        display: flex;
+        font-size: 30px;
+        justify-content: center;
+        border-bottom: 1px solid ;
+    }
+
+}
+.tl{
+    display: table;
+    border-collapse: separate;
+    border-spacing: 10px 0px;
+}
+.tr{
+    display: table-row;
+}
+.tc{
+    display: table-cell;
+    text-align: center;
+    width: 80%;
+}
+.n4 > h2{
+    font-size: 60px;
+}
+.n4{
+    text-align: justify;
+}
+.n4.content{
+    width: 400px;
+}
+.c{
+    display: table-cell;
+}
+.sidebar{
+    width: 10%;
+}
+.ad{
+    font-size: 30px;
+}
+.adspace>h4{
+    position: relative;
+    margin-top: 70%;
+}
+@media (max-width:915px){
+    .tl{
+        display: flex;
+        width:100%;
+    }
+    .tl h2{
+        font-size: 20px;
+        text-align: center;
+    }
+    .c{
+        display: none;
+    }
+}
+@media screen and (max-device-width:915px){
+    
+    .n4{
+        width: 100%;
+        font-size: 10px;
+    }
+    .n4 > h2{
+        display: flex;
+        width: 100%;
+        font-size: 30px;
+        justify-content: center;
+        border-bottom: 1px solid ;
+    }
+    .c{
+        display: none;
+    }
+}
+@media screen and (max-device-width:915px){
+    /* Popup container */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  /* The actual popup (appears on top) */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+  @-webkit-keyframes fadeOut {
+    from {opacity: 1;}
+    to {opacity: 0;}
+  }
+  @keyframes fadeOut{
+    from {opacity: 1;}
+    to {opacity:0 ;}  
+  }
+}
